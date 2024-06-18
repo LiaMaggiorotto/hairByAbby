@@ -8,7 +8,7 @@
 
   <div
         class="Header-image uk-width-1-2 uk-flex uk-flex-center"
-        style="background: url(Abby_Header.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover;  border-radius: 8px;"
+        
       ></div>
   <div class="Header-text uk-flex uk-flex-center uk-flex-column uk-width-1-2">
     <h1>Hair By Abigail</h1>
@@ -49,24 +49,22 @@
     color: #000;
     gap: 40px;
 
-    .Header-image {
-      img {
-        max-width: 35vw !important;
-        border-radius: 4px;
-      }
-    }
-
     .Header-text {
       margin-right: 45px;
+    }
+
+    .Header-image {
+      background: url(Abby_Header.jpeg); background-position: center top; 
+      background-repeat: no-repeat; 
+      background-size: cover;  
+      border-radius: 8px;
     }
   }
 
   @media screen and (max-width: 1024px) {
     .Header {
       .Header-image {
-        img {
-          max-width: 45vw !important;
-        }
+        height: unset
       }
     }
   }
@@ -81,10 +79,8 @@
       }
 
       .Header-image {
-        img {
-          width: 100% !important;
-          max-width: 100% !important;
-        }
+        height: 440px;
+        width: 100%
       }
 
       .Header-text {
