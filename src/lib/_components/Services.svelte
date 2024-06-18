@@ -61,7 +61,6 @@
 </div>
 
 <style lang="scss">
-  @import "../../../static/style.scss";
 
   .Services {
     padding: 40px;

@@ -106,6 +106,7 @@
 <MobileNav bind:this={mobileNav} {links} bind:activeLink />
 
 <style lang="scss">
+  
   .Nav {
     background-color: #000;
     color: #fafdff;

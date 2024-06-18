@@ -23,8 +23,6 @@
 
 
 <style lang="scss">
-    @import '../../../static/style.scss'; 
-
     .Footer {
         background-color: #000;
         padding: 50px;

@@ -48,7 +48,6 @@
 </div>
 
 <style lang="scss">
-  @import "../../../static/style.scss";
   .Products-wrapper {
     padding: 40px;
     .Products {
@@ -72,11 +71,15 @@
         a {
           text-decoration: none;
         }
+
+        a:hover {
+          color: #fafdff;
+        }
       }
     }
   }
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 1023px) {
     .Products-wrapper {
       padding: 40px;
 
@@ -99,8 +102,8 @@
           }
 
           .imageContainer {
-            width: 100%;
             height: 353px;
+            width: 315px;
           }
 
           p {

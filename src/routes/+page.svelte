@@ -20,7 +20,6 @@
 </div>
 
 <style lang="scss">
-
   .Wrapper {
     background-color: #fafdff;
 
@@ -29,4 +28,3 @@
     }
   }
 </style>
-

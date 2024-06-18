@@ -23,7 +23,6 @@
 </div>
 
 <style lang="scss">
-  @import "../../../static/style.scss";
 
   .Contact-wrapper {
     padding: 40px;

@@ -2,9 +2,14 @@
 </script>
 
 <div id="Header" class="Header uk-flex">
-  <div class="Header-image uk-width-1-2 uk-flex uk-flex-center">
-    <img src="Abby_Header.jpeg" alt="" />
-  </div>
+  <!-- <div class="Header-image uk-width-1-2 uk-flex uk-flex-center"> -->
+    <!-- <img src="Abby_Header.jpeg" alt="" /> -->
+  <!-- </div> -->
+
+  <div
+        class="Header-image uk-width-1-2 uk-flex uk-flex-center"
+        style="background: url(Abby_Header.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover;  border-radius: 8px;"
+      ></div>
   <div class="Header-text uk-flex uk-flex-center uk-flex-column uk-width-1-2">
     <h1>Hair By Abigail</h1>
     <p>
@@ -36,7 +41,6 @@
 </div>
 
 <style lang="scss">
-  @import "../../../static/style.scss";
   //#000;
   // #fafdff;
 
